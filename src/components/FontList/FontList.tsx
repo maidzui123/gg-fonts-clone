@@ -29,7 +29,7 @@ const FontList = () => {
     },
   ];
 
-  const { data: fonts, isLoading, isError, error } = useFetchFonts();
+  const { data: fonts } = useFetchFonts();
 
   const addFontLink = (fontFamily: string) => {
     const link = document.createElement("link");
