@@ -1,0 +1,29 @@
+.custom-dropdown-menu {
+  background-color: #303030 !important; /* Black background */
+  color: #303030 !important; /* White text */
+  max-height: 200px; /* Limit the height */
+  overflow-y: auto; /* Enable vertical scroll */
+  border-bottom-left-radius: 8px;
+}
+
+.custom-dropdown-menu .ant-dropdown-menu-item {
+  background-color: #303030 !important; /* Transparent background */
+  color: #e8eaed !important; /* White text */
+  font-size: 16px !important; /* Font size */
+  height: 48px;
+  padding: 0px !important; /* Remove padding */
+}
+
+.custom-dropdown-menu .ant-dropdown-menu-item:hover {
+  background-color: #434343 !important; /* Hover effect */
+  color: #e8eaed !important; /* White text */
+}
+
+.ant-dropdown .ant-dropdown-menu {
+  background-color: #303030 !important; /* Black background */
+  padding: 0px !important; /* Remove padding */
+}
+
+.ant-dropdown-menu-title-content {
+  height: 100%;
+}
